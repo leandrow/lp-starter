@@ -1,4 +1,5 @@
-## ![Rocket icon](dev/public/images/rocket-launch.svg) LP starter
+![Rocket icon](./dev/public/images/rocket-launch.svg)
+## LP starter
 
 > Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
