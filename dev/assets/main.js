@@ -1,4 +1,4 @@
-import '../styles/main.sass';
+import '../styles/main.css';
 import '@fontsource-variable/inter';
 import {
   createIcons,

@@ -1,0 +1,19 @@
+/** component styles */
+
+@layer components {
+  .header-fixed {
+    @apply top-0 sticky backdrop-blur-lg z-10 bg-white/85 dark:bg-[#1c1c1c]/85 saturate-150;
+  }
+
+  .button-rounded {
+    @apply flex shrink-0 rounded-full p-2 hover:bg-neutral-200 hover:dark:bg-neutral-800 duration-200 ease-in-out;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-500 to-green-600 inline-block text-transparent bg-clip-text;
+  }
+
+  .divide {
+    @apply divide-y divide-neutral-200 dark:divide-neutral-800;
+  }
+}

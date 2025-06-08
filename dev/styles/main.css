@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@import './components.css';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter Variable', 'sans-serif';
+  --breakpoint-sm: 30rem;
+}
+
+@layer base {
+  ::selection {
+    @apply bg-green-200 text-neutral-900;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-neutral-800 dark:bg-neutral-900 dark:text-neutral-200;
+  }
+
+  a {
+    @apply font-medium text-blue-500 hover:text-blue-600 duration-200 ease-in-out;
+  }
+}

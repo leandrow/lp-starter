@@ -1,4 +1,5 @@
 ![Rocket icon](./dev/public/images/rocket-launch.svg)
+
 ## LP starter
 
 > Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
@@ -24,7 +25,6 @@ If left blank, the mode will be based on OS preferences
 Recommended plugins
 
 - Tailwind CSS IntelliSense
-- Sass (.sass only)
 - Prettier - Code formatter
 
 ## Development

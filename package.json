@@ -1,21 +1,19 @@
 {
   "name": "lp-starter",
   "author": "Leandro Silva",
-  "version": "1.5.0",
+  "version": "1.6.0",
+  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --emptyOutDir",
     "preview": "vite preview --host"
   },
-  "devDependencies": {
+  "dependencies": {
     "@fontsource-variable/inter": "^5.2.5",
-    "autoprefixer": "^10.4.21",
     "lucide": "^0.479.0",
-    "postcss": "^8.5.3",
-    "postcss-import": "^16.1.0",
     "prettier": "3.5.3",
-    "sass": "^1.85.1",
-    "tailwindcss": "^3.4.17",
-    "vite": "^6.2.7"
+    "vite": "^6.2.7",
+    "@tailwindcss/vite": "^4.1.8",
+    "tailwindcss": "^4.1.8"
   }
 }
