@@ -8,6 +8,18 @@
     'Inter Variable', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --breakpoint-sm: 30rem;
+
+  --animate-background: background-move 5s ease infinite;
+  @keyframes background-move {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+  }
 }
 
 @layer base {

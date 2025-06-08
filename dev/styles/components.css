@@ -10,7 +10,7 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-blue-500 to-green-600 inline-block text-transparent bg-clip-text;
+    @apply bg-gradient-to-r from-blue-500 to-green-600 inline-block text-transparent bg-clip-text bg-[length:200%_200%];
   }
 
   .divide {
