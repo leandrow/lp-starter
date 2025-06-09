@@ -1,15 +1,15 @@
 ![Rocket icon](./dev/public/images/rocket-launch.svg)
 
-## LP starter
+## Welcome to LP starter
 
-> Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+> Rapidly build modern landing pages with [Vite](https://vite.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ### Usage examples
 
 - **[example page](https://lp-starter.vercel.app/page/)**
 - **[personal page](https://leandrow.github.io)**
 
-`Tip:` Use [HypeUI](https://www.hyperui.dev) by simply copying the components code.
+`Tip:` Use [HypeUI](https://www.hyperui.dev) by simply copying and pasting the components code..
 
 ### Dark mode
 
@@ -82,7 +82,7 @@ Build
 |-- index.html
 ```
 
-We also added a customized `404.html` (page not found) for Github pages in the `dev/public` folder.
+We also added a custom `404.html` (page not found) for Github pages in the `dev/public` folder.
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page not found</title>
     <meta name="description" content="We can't find that page" />
-    <meta property="og:image" content="/images/og.jpg" />
+    <meta property="og:image" content="/images/share.jpg" />
     <link rel="preload" as="style" href="/404/style.min.css" />
     <link rel="stylesheet" href="/404/style.min.css" />
   </head>
-  <body class="flex items-center justify-center min-h-[100svh]">
+  <body class="flex min-h-[100svh] items-center justify-center">
     <main>
       <section class="p-6">
         <!-- add content -->
         <div class="max-w-xs max-h-fit text-center">
           <span
-            class="inline-block rounded-full bg-yellow-100 px-2 py-1 mb-4 font-medium text-xs text-yellow-600"
+            class="bg-yellow-200 px-2 py-1 mb-4 font-medium text-xs text-yellow-700 inline-block rounded-full"
           >
             404
           </span>
           <h1 class="text-4xl font-bold tracking-tight">Page not found</h1>
           <p class="my-4 text-neutral-500">
             We can't find that page.
-            <a href="/">Back to home</a>
+            <a href="/" class="text-blue-500 hover:text-blue-600"
+              >Back to home</a
+            >
           </p>
         </div>
       </section>
